@@ -17,7 +17,7 @@ print("a * 2:", mul_result)
 print("a 和 b 的点积:", dot_result)
 
 # 将输出写入文件
-with open("output.txt", "w", encoding="utf-8") as f:
+with open("./data/output.txt", "w", encoding="utf-8") as f:
     f.write("数组 a: " + str(a) + "\n")
     f.write("数组 b: " + str(b) + "\n")
     f.write("a + b: " + str(sum_result) + "\n")
